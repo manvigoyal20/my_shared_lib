@@ -7,7 +7,7 @@ def call(Map config){
     ])])    
 
     node {
-        echo "Select ${config}to ${params} run the Pipeline"
+        echo "Select to ${params} run the Pipeline"
     }
-    return config
+    return params
 }
