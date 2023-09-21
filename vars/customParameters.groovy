@@ -9,4 +9,5 @@ def call(Map config){
     node {
         echo "Select ${config.branch} and ${config.testParam} to run the Pipeline"
     }
+    return config.branch
 }
